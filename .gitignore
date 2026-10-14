@@ -1,0 +1,32 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments (Strictly forbidden by assignment)
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets (Strictly forbidden by assignment)
+.env
+.env.*
+!.env.example
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
